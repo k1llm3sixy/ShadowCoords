@@ -8,4 +8,4 @@
 ⚬ _Прячет X Y Z, Block, Targeted Block/Fluid когда открыто меню дебага(`F3`)_
 
 ## Команды
-⚬ `/shadowcoords toogle` - _Включить/Выключить мод_ 
+⚬ `/shadowcoords toggle` - _Включить/Выключить мод_ 
