@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "shadowcoords",
+  "version": "${version}",
+  "name": "ShadowCoords",
+  "description": "Hide your XYZ when F3 enabled",
+  "authors": ["k1llm3sixy"],
+  "contact": {
+    "email": "k1llm3sixy@gmail.com",
+    "sources": "https://github.com/k1llm3sixy/ShadowCoords",
+    "issues": "https://github.com/k1llm3sixy/ShadowCoords/issues"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/shadowcoords/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.k1llm3sixy.shadowcoords.ShadowCoords"
+    ]
+  },
+  "mixins": [
+    "shadowcoords.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=1.20.1"
+  }
+}
